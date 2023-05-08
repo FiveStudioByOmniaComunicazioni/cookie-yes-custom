@@ -1,0 +1,80 @@
+.cli-plugin-button,
+.cky-btn {
+	color: #FFF !important;
+	background-color: #FFC001 !important;
+	border: 0 !important;
+	box-sizing: border-box;
+	margin: 5px !important;
+}
+#cookie-law-info-bar.cli-bar-popup {
+	width: 300px !important;
+	margin-left: -150px !important;
+	font-size: 14px;
+	text-align: left;
+	padding: 30px !important;
+	line-height: 1.714;
+}
+#cookie-law-info-bar.cli-bar-popup,
+#cookie-law-info-bar.cli-bar-popup * {
+	font-family: "Poppins" !important;
+}
+#cookie-law-info-bar.cli-bar-popup span {
+	color: #333;
+}
+#cookie-law-info-bar .cli_messagebar_head {
+	font-size: 17px;
+	font-weight: 700;
+}
+.cli-bar-btn_container .cli-plugin-button,
+.cky-notice-btn-wrapper .cky-btn {
+	width: 100%;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 15px;
+	margin: 5px;
+	min-width: calc(50% - 10px);
+	flex: 1 0;
+}
+.cli-bar-btn_container,
+.cky-notice-btn-wrapper {
+	margin-top: 8px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+	display: flex;
+}
+#cookie-law-info-bar {
+	width: calc(100vw - 30px) !important;
+	max-width: 500px;
+}
+#cookie-law-info-bar .cli-bar-message {
+	line-height: 1.5;
+}
+#cookie-law-info-bar .wt-cli-ccpa-element {
+	margin-bottom: 5px;
+}
+#cookie-law-info-bar .cli-bar-message a {
+	text-decoration: underline;
+}
+@media (min-width: 768px) {
+	#cookie-law-info-bar.cli-bar-popup {
+		width: 500px !important;
+		margin-left: -250px !important;
+		font-size: 17px;
+		padding: 70px !important;
+		line-height: 2;
+	}
+	#cookie-law-info-bar .cli_messagebar_head {
+		font-size: 20px !important;
+		margin-bottom: 20px !important;
+	}
+	#cookie-law-info-bar {
+		padding: 40px 30px !important;
+	}
+	#cookie-law-info-bar .cli-bar-message {
+		font-size: 16px;
+		margin-bottom: 10px !important;
+	}
+}
